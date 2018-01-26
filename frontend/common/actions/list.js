@@ -8,7 +8,6 @@ export const ON_SEARCH_ITEM = 'ON_SEARCH_ITEM';
 
 export const onSearch = data =>
   (dispatch) => {
-    console.log(data);
     dispatch({
       type: ON_SEARCH_ITEM,
       data,
